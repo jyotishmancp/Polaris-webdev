@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #2874f0;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  max-width: 100px;
+}
+
+.searchInput {
+  height: 30px;
+  width: 300px;
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0;
+  margin-right: 15px;
+}
+
+.loginBtn {
+  background-color: white;
+  color: #2874f0;
+  height: 40px;
+  margin-right: 40px;
+  border: 0;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sellerBtn{
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.searchBox{
+  position: relative;
+}
+.searchBox img{
+  max-width: 20px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+
+.parent {
+  display: flex;
+}
+
+.parent .left {
+  width: 20%;
+  height: 500px;
+  background-color: red;
+}
+
+.parent .right {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.productItem{
+  width: 25%;
+}
+.productItem img{
+width: 200px;
+height: 200px;
+}
+.productItem .title {
+  display: block;
+}
+.price .originalPrice{
+  text-decoration: line-through;
+}
